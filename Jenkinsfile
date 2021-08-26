@@ -24,8 +24,8 @@ pipeline {
             steps{
                 script{
                     bat "echo Hellow2"
-                    def noti = new notification()
-		            noti.printAll() 
+//                     def noti = new notification()
+// 		            noti.printAll() 
                 }
                 
             }
